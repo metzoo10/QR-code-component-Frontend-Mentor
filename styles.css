@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Outfit', sans-serif;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: hsl(212, 45%, 89%);
+}
+.canva {
+	position: relative;
+	width: 350px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	flex-direction: column;
+	background: #fff;
+	border-radius: 15px;
+}
+.canva .qrcode {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	background: url(images/qr-code.png);
+	background-size: 300px;
+	border-radius: 15px;
+	margin-bottom: 20px;
+}
+.canva h4 {
+	font-weight: 700;
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.canva p {
+	font-weight: 100;
+	font-size: 1.1em;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.attribution { 
+	font-size: 11px; 
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+}
+.attribution a { 
+	color: hsl(218, 44%, 22%);
+	text-decoration: none;
+}
